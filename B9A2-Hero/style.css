@@ -91,6 +91,21 @@ line-height: 26px; /* 162.5% */
 
 }
 
+.frame{
+    width: 18.001px;
+height: 18.001px;
+flex-shrink: 0;
+stroke-width: 1.5px;
+stroke: #FFF;
+}
+
+.frame1{
+    
+flex-shrink: 0;
+border-radius: 8px;
+background: #FF5400;
+}
+
 .button{
     background-color: orangered;
     text-align: center;
@@ -193,7 +208,7 @@ border-radius: 16px;
 border: 1px solid rgba(233, 68, 68, 0.20);
 background: rgba(233, 68, 68, 0.05);
 padding: 10px 20px 10px 5px;
-margin: auto;
+margin: auto; 
 }
 .view3{
     display: flex;
@@ -259,8 +274,12 @@ font-family: Mulish;
 font-style: normal;
 line-height: normal;
 }
-.hero{
-    font-size: 32px;
+
+
+.footer-icon{
+    display: flex;
+    align-items: center;
+    
 }
 
 .image{
@@ -270,14 +289,51 @@ flex-shrink: 0;
 
 }
 
-.footer{
-    display: block;
-    padding-top: 30px;
-    text-align: center;
-    margin-left: 30px;
-    margin-right: 50px;
-    
+.hero{
+    font-size: 32px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
 }
+
+.icon{
+    align-items: center;
+    width: 174.322px;
+height: 24px;
+flex-shrink: 0;
+margin: auto;
+
+}
+
+.div{
+    padding: 80px 60px 200px 500px;
+}
+.span{
+    color: #FF5400;
+}
+.para{
+    color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+
+}
+
+
+.footer{
+    align-items: center;
+    display: block;
+    width: 1440px;
+height: 502px;
+flex-shrink: 0;
+background: rgba(19, 19, 24, 0.05);
+margin-left: 30px;
+margin-top: 50px;
+margin-right: 450px;
+
+}
+
+
 
     
 
